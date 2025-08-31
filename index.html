@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konstantin Dal - Programmer & Student</title>
+    <!-- Added meta tags for better SEO and GitHub Pages optimization -->
+    <meta name="description" content="Konstantin Dal - Computer Science Student & Systems Programmer specializing in C++ and Go development">
+    <meta name="keywords" content="programmer, student, C++, Go, systems programming, computer science">
+    <meta name="author" content="Konstantin Dal">
+    
+    <!-- Open Graph tags for better social sharing -->
+    <meta property="og:title" content="Konstantin Dal - Programmer & Student">
+    <meta property="og:description" content="Computer Science Student & Systems Programmer specializing in C++ and Go">
+    <meta property="og:image" content="./profile-photo.jpg">
+    <meta property="og:url" content="https://dalkonstantin.github.io">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    
     <style>
         * {
             margin: 0;
@@ -30,6 +45,8 @@
             color: white;
             padding: 100px 0;
             text-align: center;
+            /* Added will-change for better performance */
+            will-change: transform;
         }
 
         .hero h1 {
@@ -278,6 +295,12 @@
                 justify-content: center;
             }
         }
+
+        /* Added performance optimizations */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -324,7 +347,8 @@
                         <li>Performance Optimization</li>
                     </ul>
                 </div>
-                <img src="profile-photo.jpg" alt="Konstantin Dal" class="profile-photo">
+                <!-- Updated image path to be GitHub Pages compatible -->
+                <img src="./profile-photo.jpg" alt="Konstantin Dal - Computer Science Student" class="profile-photo" loading="lazy">
             </div>
         </div>
     </section>
@@ -389,7 +413,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Konstantin Dal. Built with HTML and CSS.</p>
+            <!-- Updated footer text for GitHub Pages -->
+            <p>&copy; 2024 Konstantin Dal. Hosted on GitHub Pages.</p>
         </div>
     </footer>
 </body>
